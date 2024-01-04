@@ -15,7 +15,7 @@ body{
 
 }
 .gallery > div:hover{
-    flex: 20;
+    flex: 7;
 }
 audio{
     width: 100%;
