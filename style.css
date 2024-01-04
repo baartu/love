@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(215, 137, 36);
+}
+.gallery{
+    display: flex;
+    gap: 1rem;
+    height: 400px;
+}
+.gallery > div{
+    flex: 1;
+    background: var(--i) no-repeat center;
+    background-size: auto 100%;
+    border-radius: 1rem;
+    transition: all .7s cubic-bezier(.25,1,.45,1.4);
+
+}
+.gallery > div:hover{
+    flex: 20;
+}
+audio{
+    width: 100%;
+}
+label{
+    font-size: 24px;
+    font-style: initial;
+}
+.audio{
+    text-align: center;
+}
